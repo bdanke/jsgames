@@ -1,0 +1,46 @@
+table {
+  border: 1px solid black;
+  background: lightgreen;
+}
+
+div .row {
+  height: 12px;
+/*  width: auto;*/
+/*  background-color: lightgreen;*/
+/*  border: 1px solid black;*/
+}
+
+.cell {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background-color: lightgreen;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.apple {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+.snake {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background-color: darkgreen;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: table;
+  clear: both;
+}
